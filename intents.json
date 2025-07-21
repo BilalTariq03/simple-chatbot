@@ -1,0 +1,188 @@
+{"intents": [
+  {"tag": "greetings",
+  "patterns": ["hello", "hey", "hi", "hiya", "sup", "good day", "greetings", "whats up", "how is it going?"],
+  "responses": ["hello!", "hi!", "What can i do for you?"]
+},
+
+{"tag": "goodbye",
+  "patterns": ["cya", "See you later", "bye", "good bye", "I am leaving", "Talk to you later", "cao", "see ya", "ttyl"],
+  "responses": ["Bye!", "GoodBye!", "Talk to you later."]
+},
+{
+  "tag": "help",
+  "patterns": ["help", "I need help", "can you help me", "assist me", "support"],
+  "responses": ["Sure—what do you need assistance with?", "Of course, how can I help you today?"]
+},
+{
+  "tag": "bot_name",
+  "patterns": ["what is your name", "who are you", "your name please", "may I know your name?"],
+  "responses": ["I'm your friendly chatbot!", "You can call me ChatBuddy.", "I'm the AI assistant here to help you."]
+},
+{
+  "tag": "weather",
+  "patterns": ["what's the weather", "tell me the weather", "weather today", "is it raining", "how's the weather"],
+  "responses": ["I'm not connected to live data yet, but you can check your local forecast online!", "I don't have weather info right now—try a weather app?"]
+},
+{
+  "tag": "age",
+  "patterns": ["how old are you", "what's your age", "age?"],
+  "responses": ["I'm timeless! I live in the cloud.", "I don't age like humans do"]
+},
+
+{
+  "tag": "thanks_confirmation",
+  "patterns": ["really helpful", "that helped", "great answer", "awesome, thanks"],
+  "responses": ["Glad I could help!", "Anytime! Let me know if you need anything else."]
+},
+{
+  "tag": "affirmation",
+  "patterns": ["yes", "yup", "sure", "absolutely", "definitely"],
+  "responses": ["Great!", "Awesome, let me know what's next."]
+},
+{
+  "tag": "negation",
+  "patterns": ["no", "nope", "nah", "not really", "don't"],
+  "responses": ["Alright, let me know if you change your mind.", "Okay, what would you like to do instead?"]
+},
+{
+  "tag": "apology",
+  "patterns": ["sorry", "my bad", "I apologize", "pardon me"],
+  "responses": ["No worries!", "It's okay—how can I help now?"]
+},
+{
+  "tag": "mood",
+  "patterns": ["how are you", "how's it going", "what's up", "how do you feel"],
+  "responses": ["I'm just a bunch of code, but I'm here to help!", "Doing great—ready to assist you!"]
+},
+{
+  "tag": "time",
+  "patterns": ["what time is it", "tell me the time", "current time", "time now"],
+  "responses": ["I don't have a clock, but you can check your device for the current time.", "I'm not synced to a clock—maybe look at your system tray?"]
+},
+{
+  "tag": "date",
+  "patterns": ["what's the date", "today's date", "date today", "what day is it"],
+  "responses": ["I can't see a calendar, but it's a great day to code!", "I'm not sure, but check your calendar app for the date."]
+},
+{
+  "tag": "store_hours",
+  "patterns": [
+    "what are your opening hours",
+    "when do you open",
+    "store hours",
+    "when are you open",
+    "opening time"
+  ],
+  "responses": [
+    "We're open Monday-Friday from 9 AM to 6 PM, and Saturday from 10 AM to 4 PM.",
+    "Our hours are 9 AM-6 PM on weekdays, 10 AM-4 PM on Saturday, and closed on Sundays."
+  ]
+},
+{
+  "tag": "closing_time",
+  "patterns": [
+    "when do you close",
+    "closing time",
+    "what time do you close",
+    "what's your closing hour"
+  ],
+  "responses": [
+    "We close at 6 PM on weekdays and 4 PM on Saturdays.",
+    "Our doors lock at 6 PM Monday-Friday, and 4 PM on Saturdays."
+  ]
+},
+{
+  "tag": "store_location",
+  "patterns": [
+    "where is your shop",
+    "store location",
+    "address",
+    "how do I find you",
+    "where are you located"
+  ],
+  "responses": [
+    "We’re located at 123 Main Street, Rawalpindi, next to Central Park.",
+    "You can find our shop at 123 Main St., Rawalpindi."
+  ]
+},
+{
+  "tag": "product_availability",
+  "patterns": [
+    "do you have [product] in stock",
+    "is [product] available",
+    "stock for [product]",
+    "can I buy [product] now"
+  ],
+  "responses": [
+    "Let me check… Yes, we have [product] in stock!",
+    "Sorry, [product] is currently out of stock. Would you like me to notify you when it's back?"
+  ]
+},
+{
+  "tag": "out_of_stock",
+  "patterns": [
+    "when will [product] be back",
+    "restock date for [product]",
+    "back in stock",
+    "restocking [product]"
+  ],
+  "responses": [
+    "We expect [product] back in 2-3 days. Can I reserve one for you?",
+    "[product] should be restocked by the end of this week."
+  ]
+},
+{
+  "tag": "payment_methods",
+  "patterns": [
+    "how can I pay",
+    "payment options",
+    "do you accept card",
+    "credit card",
+    "paypal"
+  ],
+  "responses": [
+    "We accept cash, Visa, Mastercard, and mobile wallets.",
+    "You can pay via cash, credit/debit card, or mobile payment."
+  ]
+},
+{
+  "tag": "return_policy",
+  "patterns": [
+    "what is your return policy",
+    "can I return",
+    "refund policy",
+    "exchange policy"
+  ],
+  "responses": [
+    "You can return items within 30 days with a receipt for a full refund.",
+    "Our return window is 30 days from purchase, with original packaging and receipt."
+  ]
+},
+{
+  "tag": "today_timings",
+  "patterns": [
+    "are you open today",
+    "today's opening hours",
+    "working hours today",
+    "open now"
+  ],
+  "responses": [
+    "Yes, we're open today from 9 AM to 6 PM.",
+    "We're currently open—our hours today are 9 AM-6 PM."
+  ]
+},
+{
+  "tag": "holiday_hours",
+  "patterns": [
+    "holiday hours",
+    "open on public holidays",
+    "closed on holidays",
+    "festive hours"
+  ],
+  "responses": [
+    "We're closed on major public holidays but open regular hours on all other days.",
+    "Please check our website for holiday-specific hours or give us a call."
+  ]
+}  
+  
+]}
